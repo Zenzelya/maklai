@@ -1,0 +1,200 @@
+/*
+* Third Party
+*/
+
+/*
+* Custom
+*/
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1200px;
+	height: 800px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	background-color: #eee;
+	
+}
+
+.item-box {
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-top: 15px;
+	min-width: 286px;
+ 	height: 320px;
+	border-radius: 3px;
+	background-color: white;
+	
+	box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.1),0px 1px 6.86px 0.14px rgba(0, 0, 0, 0.04);
+	
+	&__view{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+		align-items: flex-start;
+		position: relative;
+		width: 286px;
+ 		height: 202px;
+ 		background-color: #eee;
+		background-image: url(../img/bgimg.png);
+		border-radius: 3px 3px 0 0;
+	}
+
+	&__description{
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	&__view-info{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+	}
+}
+
+.data{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 3px;
+	margin-left: 5px;
+}
+
+.score{
+	width: 48px;
+	height: 48px;
+	box-sizing: border-box;
+	border-color: rgba(255, 255, 255, 0.302);
+  border-style: solid;
+ 	border-radius: 50%;
+ 	
+  &:after{
+  	content: "";
+  	opacity: 1;
+  	position: absolute;
+  	box-sizing: border-box;
+  	border-style: solid;
+  	border-left: transparent;
+  	border-radius: 50%;
+  	width: 48px;
+		height: 48px;
+		left: 5px;
+		top: 143px;
+		border-color: rgb(53, 135, 224);
+	}	
+
+	&-q {
+		text-align: center;
+		font-size: 20px;
+	  font-family: "Roboto";
+	  color: rgb(255, 255, 255);
+	  font-weight: bold;
+	  text-transform: uppercase;
+	  line-height: 46px;
+	}
+
+	
+}
+
+.fabulous{
+	margin-left: 9px;
+	padding-top: 11px;
+	padding-bottom: 5px;
+	color: rgb( 255, 255, 255 );
+	font-family: "Roboto";
+	text-align: left;	
+	
+	&__text{
+		letter-spacing: 1px;
+		font-size: 18px;
+	  font-weight: bold;
+	  line-height: 1.333;
+	  
+	}
+
+	&__link{
+		font-size: 12px;
+	  font-family: "Raleway";
+	  color: rgb( 255, 255, 255 );
+	  line-height: 2;
+	  text-decoration: none;
+	 
+	}
+
+	&__link:after {
+		content: '';
+	  display: block;
+	  position: relative;
+	  top: -5px;
+	  width: 64px;
+	  height: 1px;
+	  background-color: rgb( 255, 255, 255 );
+	}
+
+}
+
+#reviews{
+	margin-right: 3px;
+}
+
+.camera {
+	position: relative;
+	left: 100px;
+	top: 21px;
+
+	&__img{
+		background-color: rgba( 255, 255, 255, 0.7);
+	}
+}
+
+#photo-q{
+	font-size: 14px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  vertical-align: top;
+}
+
+.star{
+	margin-top: 8px;
+	color: rgb(241, 240, 74);
+	
+}
+
+.name {
+	font-size: 20px;
+  font-family: "Roboto";
+  color: rgb( 51, 51, 51 );
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.address {
+	margin-top: 4px;
+	font-size: 12px;
+  font-family: "Raleway";
+  color: rgb( 51, 51, 51 );
+  line-height: 2;
+  text-align: left;
+}
+
+.show-map{
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+}
+

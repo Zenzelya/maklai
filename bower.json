@@ -1,0 +1,21 @@
+{
+  "name": "Gulp template",
+  "description": "Template",
+  "main": "",
+  "authors": [
+    "Kelhankin A"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.*",
+    "strict-reset.css": "^0.5.2"
+  }
+}
